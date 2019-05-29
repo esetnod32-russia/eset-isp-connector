@@ -1,4 +1,4 @@
 /vendor/
 .lock
 .git/
-.idea
+.idea/*
