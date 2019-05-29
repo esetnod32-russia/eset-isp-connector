@@ -2,7 +2,7 @@
 
 namespace Src\IspService;
 
-use \Src\IspService\IspException;
+use Src\IspService\IspException;
 
 /**
  * Class IspConnector
@@ -58,7 +58,7 @@ class IspConnector
             /** @var \SoapClient $arResponse */
             $arResponse = (array)$obClient->$strMethod($arParams);
         } catch (SoapFault $e) {
-            throw new CIspException($e->getMessage(), $e->getCode());
+            throw new IspException($e->getMessage(), $e->getCode());
         }
 
         if ($arResponse['ResCode'] !== 0) {
