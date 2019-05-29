@@ -1,19 +1,29 @@
 {
-    "name": "eset/isp-connector",
-    "description": "IspConnector to SOAP service",
-    "type": "project",
-    "require": {
-        "mockery/mockery": "0.9.*"
-    },
-    "require-dev": {
-        "mockery/mockery": "0.9.*"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Semenenko Timofey",
-            "email": "tsemenenko@esetnod32.ru"
-        }
-    ],
-    "minimum-stability": "stable"
+  "name": "eset/isp-connector",
+  "description": "IspConnector to SOAP service",
+  "type": "project",
+  "require": {
+    "php": "^5.3.3 || ^7.1",
+    "mockery/mockery": "0.9.*"
+  },
+  "require-dev": {
+    "mockery/mockery": "0.9.*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Semenenko Timofey",
+      "email": "tsemenenko@esetnod32.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "src\\IspService\\": "Src/IspService/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "src\\IspService\\": "Src/IspService/"
+    }
+  }
 }
