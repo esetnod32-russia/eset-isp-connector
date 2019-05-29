@@ -1,0 +1,19 @@
+{
+    "name": "eset/isp-connector",
+    "description": "IspConnector to SOAP service",
+    "type": "project",
+    "require": {
+        "mockery/mockery": "0.9.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Semenenko Timofey",
+            "email": "tsemenenko@esetnod32.ru"
+        }
+    ],
+    "minimum-stability": "stable"
+}
