@@ -18,12 +18,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "src\\IspService\\": "src/IspService/"
+      "src\\IspService\\": "Src/IspService/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "src\\IspService\\": "src/IspService/"
+      "src\\IspService\\": "Src/IspService/"
     }
   }
 }
