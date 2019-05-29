@@ -27,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpStormWorkshopConfiguration">
     <option name="enabled" value="true" />
     <option name="isEnabled" value="true" />
@@ -104,12 +107,12 @@
       <updated>1559129387152</updated>
       <workItem from="1559129388580" duration="242000" />
       <workItem from="1559129663588" duration="131000" />
-      <workItem from="1559129797414" duration="1950000" />
+      <workItem from="1559129797414" duration="2202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2323000" />
+    <option name="totallyTimeSpent" value="2575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1920" height="982" extended-state="0" />
